@@ -1,13 +1,22 @@
 import os
-import path import *
+from os.path import join 
+from path import *
+
+
+''' 
+For comparing the produced result and solution.
+Write score summary and error cases for each contributor.
 '''
-cls_path = os.path.join("..", "src
-for cls in os.listdir(cls_path):
-	if os.path.isdir(os.path.join(cls_path, cls)):
-		cls_src_path = os.path.join(cls_path, cls)
-		# for information file 
-		info_path = os.path.join(cls_src_path, "info.txt")
-		# for 
-		src_path = os.path.join(cls_src_path, cls+".py")
-		print src_path
-	'''	
+
+for cls in os.listdir(test):
+	if os.path.isdir(join(test, cls)):
+		for op in os.listdir(join(test, cls)):
+			if os.path.isdir(join(join(test, cls), op)):
+				sol = os.listdir(join(join(test, cls), op))[1]
+				ans = os.listdir(join(join(test, cls), op))[0]
+				
+		
+
+for cont in os.listdir(score):
+	res = join(join(score, cont), "score.txt")
+	
