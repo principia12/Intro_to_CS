@@ -1,4 +1,3 @@
-
 \section{Introduction}
 
 \subsection{Administrative Details}
@@ -88,19 +87,59 @@ document.bgColor = favcolor;
 
 \subsection{Programming Basics}
 
-프로그래밍 언어와 독립적으로, 알고리즘을 평가하거나 디자인하는 방법에 대한 항목들입니다. 
+이 항목은 특정 알고리즘이나 데이터구조에 종속된 내용이 아니라 프로그래밍 전반에 관한 기본적인 지식들입니다. \footnote{더 필요한 부분이 있다고 생각되면 추가 바랍니다.} 
 
-\subsubsection{Timal/Spatial complexity} 
+\subsubsection{Time Complexity} 
 
-O(n)
+어떤 문제를 풀 때 여러 가지 프로그램이 있을 수 있습니다. 이 중 최적의 프로그램을 고르기 위해서는 프로그램 간의 성능차를 정량적으로 비교할 수 있는 기준이 필요합니다. 그런 기준 중 하나가 시간복잡도입니다. 시간복잡도는 알고리즘(혹은 프로그램)이 얼마나 많은 시간을 필요로 하는지를 나타내는 지표입니다. 프로그램이 수행되는데 걸리는 시간을 프로그램의 input의 길이에 대한 함수로 나타낸 것이 시간복잡도의 수학적 정의입니다. 예시를 들기 위해서 다음 코드 예제를 보겠습니다. 
+
+\begin{Python}
+def count(n):
+	for i in range(n):
+		print i
+\end{Python}
+
+위 코드에서의 count 함수는 크기가 n인 정수를 받아서, n번 출력하게 됩니다. 따라서 이 함수가 실행되는데 걸리는 시간은 print함수 한 번 실행되는 시간 * n일 것입니다. 이런 경우 시간복잡도는 1차함수가 됩니다. 
+
+일반적으로 편의를 위해서 시간복잡도를 나타낼 때는 그냥 함수 그대로 나타내는 것이 아니라 O notation을 이용합니다. O notation은 어떤 함수의 saymptoticall한 representation으로, 대략적인 함수의 모양을 나타내 줍니다. 예를 들어서 $n^2+n+1$은 $O(n^2
+)$으로 나타내어집니다. O notation의 결과물은 항상 다항식일 필요는 없으며, 로그나 constant, 혹은 지수함수 꼴로 나타내어지는 경우도 있습니다. 
 
 \subsubsection{Recursion}
 
-definition
-complexity 
-Recursion example 
-vs iteration 
-stack overflow / tail-call recursion (+ continuation?)
+어떤 집합이 다음과 같은 두 개의 명제로 정의되면 그 집합을 recursive\footnote{https://en.wikipedia.org/wiki/Recursion } 하다고 합니다. 
+\begin{compactitem}
+\item Base cases : recursion 없는 일반적인 정의. $a \in A$ 등. 
+\item 그 외의 경우는 Base case에서 유도됨. 
+\end{compactitem}
+\footnote{수학적 귀납법과 거의 흡사한 꼴인 것을 알 수 있습니다.}
+이런 집합의 예로는 피보나치 수열이 있습니다. 이런 재귀적인 성질을 이용해서 프로그램을 짜는 경우가 많은데, 예시를 몇 가지 들어보겠습니다. 
+
+\begin{compactitem}
+\item 하노이의 탑 
+
+함수 Hanoi(n, a, b, c)는 4개의 인자를 받는 함수입니다. 첫 번째 인자는 숫자로, 하노이의 탑에 원판이 몇 개 있는지를 나타냅니다. a,b,c는 각각 기둥의 이름을 나타냅니다. Hanoi 함수를 실행시키면  a에서 c로 원반 n개를 움직일 때 어떻게 움직여야 하는지 알려줍니다. 이러한 함수의 경우 재귀적인 방법을 사용하여 짜면 편리하게 짤 수 있습니다. 파이썬으로 짠 예제는 아래에 있습니다. 
+
+\begin{Python}
+# for python 2.x version
+def Hanoi(n, a, b, c):
+    res = ""
+    if n==1:
+        res = "move %d from %s to %s"%(n, a, c)    
+    else:
+        res = "%s \nmove %d from %s to %s \n%s" %(Hanoi(n-1, a, c, b), n, a, c, Hanoi(n-1, b, a, c))
+    return res
+\end{Python}
+
+\item Parser
+
+
+
+\end{compactitem}
+
+Recursion은 iteration과 매우 흡사한 성질을 가집니다. 사실, iteration과 recursion은 동치로 모든 iteration은 recursion으로 나타내어질 수 있고, 역도 성립합니다. 
+%stack overflow / tail-call recursion (+ continuation?)
+
+
 
 
 \subsubsection{Divide and Conquer}
