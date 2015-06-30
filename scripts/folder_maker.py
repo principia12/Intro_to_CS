@@ -19,7 +19,6 @@ for line in contrib.readlines():
 	
 '''
 Read the classname.txt file in test folder, and make folder for each class for containing test cases and solution. 
-
 '''
 	
 for info in os.listdir(test):
@@ -31,7 +30,6 @@ for info in os.listdir(test):
 		for line in info_file.readlines(): 
 			#print line.strip("\n")
 			createPath(os.path.join(cls_path, line.strip("\n")))
-		createPath(os.path.join(cls_path, "test cases"))
 		
 		
 		

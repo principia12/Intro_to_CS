@@ -59,6 +59,8 @@ for cls in os.listdir(test):
 				score_dic.update({op: res})
 		
 # write score to file
+print score_dic
+
 
 for cont in score_dic.itervalues().next().keys():
 	score_path = join(score, cont)
