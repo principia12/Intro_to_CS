@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2015.4.8)  29 JUN 2015 15:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2015.4.8)  30 JUN 2015 15:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1004,13 +1004,22 @@ LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <10> not available
 \openout4 = `"Programmer's guide to the CS.toc"'.
 
  [3] (./introduction.tex
+LaTeX Font Info:    Try loading font information for OMS+pplx on input line 34.
+
+LaTeX Font Info:    No file OMSpplx.fd. on input line 34.
+
+
+LaTeX Font Warning: Font shape `OMS/pplx/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbullet' on input line 34.
+
 (c:/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2014/09/06 1.5e listings language file
 )
 (c:/texlive/2014/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
 )
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 40.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 51.
 
 (c:/texlive/2014/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
@@ -1022,24 +1031,15 @@ Package microtype Info: Loading generic settings for font family
 
 (c:/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2014/09/06 1.5e listings language file
-)
+) [4]
 (c:/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2014/09/06 1.5e listings language file
-) [4]
+)
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <9> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 73.
- [5]
-LaTeX Font Info:    Try loading font information for OMS+pplx on input line 111
-.
-LaTeX Font Info:    No file OMSpplx.fd. on input line 111.
-
-
-LaTeX Font Warning: Font shape `OMS/pplx/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 111.
-
-[6]) (./list.tex [7]) (./stack.tex [8]) (./queue.tex [9]) (./advanced.tex
-[10] [11])
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 84.
+ [5] [6])
+(./list.tex [7]) (./stack.tex [8]) (./queue.tex [9]) (./advanced.tex [10]
+[11])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 213.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 213.
  (./Programmer's guide to the CS.aux)
@@ -1047,7 +1047,7 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 213.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 213.
 Package rerunfilecheck Info: File `"Programmer's guide to the CS".out' has not 
 changed.
-(rerunfilecheck)             Checksum: D7E98596F6A5ACFBFAE748148AE8C914;3045.
+(rerunfilecheck)             Checksum: 3B306D96FBBFAF84BE28727DABE3B4F5;3112.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1055,67 +1055,72 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 213.
  ) 
 Here is how much of TeX's memory you used:
- 13745 strings out of 493109
- 204565 string characters out of 6138588
- 468199 words of memory out of 5000000
- 16679 multiletter control sequences out of 15000+600000
- 74918 words of font info for 191 fonts, out of 8000000 for 9000
+ 13765 strings out of 493109
+ 204983 string characters out of 6138588
+ 472119 words of memory out of 5000000
+ 16692 multiletter control sequences out of 15000+600000
+ 76713 words of font info for 197 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,12n,72p,747b,1430s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,12n,72p,747b,2069s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texl
 ive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2014/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2014/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmsy10.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/fpl
 /fplrc8a.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/nanumtype1/nanummjb
-b4.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc0.pfb
-><c:/texlive/2014/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc5.pfb><c:/t
-exlive/2014/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc6.pfb><c:/texlive
-/2014/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd5.pfb><c:/texlive/2014/
-texmf-dist/fonts/type1/public/nanumtype1/nanummjmac.pfb><c:/texlive/2014/texmf-
-dist/fonts/type1/public/nanumtype1/nanummjmad.pfb><c:/texlive/2014/texmf-dist/f
-onts/type1/public/nanumtype1/nanummjmae.pfb><c:/texlive/2014/texmf-dist/fonts/t
-ype1/public/nanumtype1/nanummjmaf.pfb><c:/texlive/2014/texmf-dist/fonts/type1/p
-ublic/nanumtype1/nanummjmb0.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/
-nanumtype1/nanummjmb1.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/nanumt
-ype1/nanummjmb2.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/nanumtype1/n
-anummjmb3.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/nanumtype1/nanummj
-mb4.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb5.pf
-b><c:/texlive/2014/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb7.pfb><c:/
-texlive/2014/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb8.pfb><c:/texliv
-e/2014/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb9.pfb><c:/texlive/2014
-/texmf-dist/fonts/type1/public/nanumtype1/nanummjmba.pfb><c:/texlive/2014/texmf
--dist/fonts/type1/public/nanumtype1/nanummjmbb.pfb><c:/texlive/2014/texmf-dist/
-fonts/type1/public/nanumtype1/nanummjmbc.pfb><c:/texlive/2014/texmf-dist/fonts/
-type1/public/nanumtype1/nanummjmbd.pfb><c:/texlive/2014/texmf-dist/fonts/type1/
-public/nanumtype1/nanummjmbe.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public
-/nanumtype1/nanummjmc0.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/nanum
-type1/nanummjmc1.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/nanumtype1/
-nanummjmc2.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/nanumtype1/nanumm
-jmc3.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc5.p
-fb><c:/texlive/2014/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc6.pfb><c:
-/texlive/2014/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc7.pfb><c:/texli
-ve/2014/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc8.pfb><c:/texlive/201
-4/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc9.pfb><c:/texlive/2014/texm
-f-dist/fonts/type1/public/nanumtype1/nanummjmcc.pfb><c:/texlive/2014/texmf-dist
-/fonts/type1/public/nanumtype1/nanummjmcd.pfb><c:/texlive/2014/texmf-dist/fonts
-/type1/public/nanumtype1/nanummjmce.pfb><c:/texlive/2014/texmf-dist/fonts/type1
-/public/nanumtype1/nanummjmcf.pfb><c:/texlive/2014/texmf-dist/fonts/type1/publi
-c/nanumtype1/nanummjmd0.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/nanu
-mtype1/nanummjmd1.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/nanumtype1
-/nanummjmd2.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/nanumtype1/nanum
-mjmd3.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd4.
-pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd5.pfb><c
-:/texlive/2014/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb><c:/texl
-ive/2014/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd7.pfb><c:/texlive/20
-14/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb><c:/texlive/2014/texmf-d
-ist/fonts/type1/urw/palatino/uplb8a.pfb><c:/texlive/2014/texmf-dist/fonts/type1
-/urw/palatino/uplr8a.pfb><c:/texlive/2014/texmf-dist/fonts/type1/urw/palatino/u
-plri8a.pfb>
-Output written on "Programmer's guide to the CS.pdf" (11 pages, 2112163 bytes).
+ad.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb4.pfb
+><c:/texlive/2014/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb5.pfb><c:/t
+exlive/2014/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb8.pfb><c:/texlive
+/2014/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb9.pfb><c:/texlive/2014/
+texmf-dist/fonts/type1/public/nanumtype1/nanummjbc0.pfb><c:/texlive/2014/texmf-
+dist/fonts/type1/public/nanumtype1/nanummjbc5.pfb><c:/texlive/2014/texmf-dist/f
+onts/type1/public/nanumtype1/nanummjbc6.pfb><c:/texlive/2014/texmf-dist/fonts/t
+ype1/public/nanumtype1/nanummjbc8.pfb><c:/texlive/2014/texmf-dist/fonts/type1/p
+ublic/nanumtype1/nanummjbd1.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/
+nanumtype1/nanummjbd5.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/nanumt
+ype1/nanummjmac.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/nanumtype1/n
+anummjmad.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/nanumtype1/nanummj
+mae.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/nanumtype1/nanummjmaf.pf
+b><c:/texlive/2014/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb0.pfb><c:/
+texlive/2014/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb1.pfb><c:/texliv
+e/2014/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb2.pfb><c:/texlive/2014
+/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb3.pfb><c:/texlive/2014/texmf
+-dist/fonts/type1/public/nanumtype1/nanummjmb4.pfb><c:/texlive/2014/texmf-dist/
+fonts/type1/public/nanumtype1/nanummjmb5.pfb><c:/texlive/2014/texmf-dist/fonts/
+type1/public/nanumtype1/nanummjmb7.pfb><c:/texlive/2014/texmf-dist/fonts/type1/
+public/nanumtype1/nanummjmb8.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public
+/nanumtype1/nanummjmb9.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/nanum
+type1/nanummjmba.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/nanumtype1/
+nanummjmbb.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/nanumtype1/nanumm
+jmbc.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbd.p
+fb><c:/texlive/2014/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbe.pfb><c:
+/texlive/2014/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc0.pfb><c:/texli
+ve/2014/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc1.pfb><c:/texlive/201
+4/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc2.pfb><c:/texlive/2014/texm
+f-dist/fonts/type1/public/nanumtype1/nanummjmc3.pfb><c:/texlive/2014/texmf-dist
+/fonts/type1/public/nanumtype1/nanummjmc5.pfb><c:/texlive/2014/texmf-dist/fonts
+/type1/public/nanumtype1/nanummjmc6.pfb><c:/texlive/2014/texmf-dist/fonts/type1
+/public/nanumtype1/nanummjmc7.pfb><c:/texlive/2014/texmf-dist/fonts/type1/publi
+c/nanumtype1/nanummjmc8.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/nanu
+mtype1/nanummjmc9.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/nanumtype1
+/nanummjmcc.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/nanumtype1/nanum
+mjmcd.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/nanumtype1/nanummjmce.
+pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcf.pfb><c
+:/texlive/2014/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd0.pfb><c:/texl
+ive/2014/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd1.pfb><c:/texlive/20
+14/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd2.pfb><c:/texlive/2014/tex
+mf-dist/fonts/type1/public/nanumtype1/nanummjmd3.pfb><c:/texlive/2014/texmf-dis
+t/fonts/type1/public/nanumtype1/nanummjmd4.pfb><c:/texlive/2014/texmf-dist/font
+s/type1/public/nanumtype1/nanummjmd5.pfb><c:/texlive/2014/texmf-dist/fonts/type
+1/public/nanumtype1/nanummjmd6.pfb><c:/texlive/2014/texmf-dist/fonts/type1/publ
+ic/nanumtype1/nanummjmd7.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/cm-
+super/sftt0900.pfb><c:/texlive/2014/texmf-dist/fonts/type1/urw/palatino/uplb8a.
+pfb><c:/texlive/2014/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/texlive
+/2014/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on "Programmer's guide to the CS.pdf" (11 pages, 2261353 bytes).
 
 PDF statistics:
- 576 PDF objects out of 1000 (max. 8388607)
- 506 compressed objects within 6 object streams
- 118 named destinations out of 1000 (max. 500000)
- 48993 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 605 PDF objects out of 1000 (max. 8388607)
+ 529 compressed objects within 6 object streams
+ 119 named destinations out of 1000 (max. 500000)
+ 49001 words of extra memory for PDF output out of 51595 (max. 10000000)
 
