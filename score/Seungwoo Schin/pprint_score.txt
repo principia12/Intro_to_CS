@@ -1,3 +1,0 @@
-pprint
-score : 0.888889
-error case : case 1

@@ -1,3 +1,0 @@
-addone
-score : 1.000000
-No errorneous case

@@ -1,0 +1,6 @@
+pprint
+score : 0.888889
+error case : case 1
+addone
+score : 1.000000
+No errorneous case

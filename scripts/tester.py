@@ -37,11 +37,13 @@ cont_name = [] # list for name of contributors
 for cont in os.listdir(score):
 	cont_name.append(cont)
 
-# score_dic = {cont_name : {method_name : [right_rate, [error_nums]}}
+# score_dic = {op : {cont_name : [op, right_rate, [error_nums]}}
+
 score_dic = {}
-	
+
 for cls in os.listdir(test):
 	if os.path.isdir(join(test, cls)):
+		score_cls_dic = {}
 		for op in os.listdir(join(test, cls)):
 			if os.path.isdir(join(join(test, cls), op)):
 				# path for solution and ans directory
@@ -56,26 +58,31 @@ for cls in os.listdir(test):
 					score.update({cont:res})
 					'''
 					res.update({cont: compare(sol, ans)})
-				score_dic.update({op: res})
+				score_cls_dic.update({op: res})
+				
+		score_dic.update({cls:score_cls_dic})
 		
 # write score to file
-print score_dic
+#print score_dic
 
+class_lst = score_dic.keys()
 
-for cont in score_dic.itervalues().next().keys():
-	score_path = join(score, cont)
-	print "Writing scores for %s"%cont
-	for op in score_dic.keys():
-		score_file = open(join(score_path, "%s_score.txt"%op), "w+")
-		score_file.write(op + "\n")
-		score_file.write("score : %f\n"%score_dic[op][cont][0])
-		for elem in score_dic[op][cont][1]:
-			score_file.write("error case : case %s"%elem)
-		if score_dic[op][cont][1] == []:	
-			score_file.write("No errorneous case")
-	
+for cls in class_lst:
+	score_cls_dic = score_dic[cls]
+	for cont in score_cls_dic.itervalues().next().keys():
+		score_path = join(score, cont)
+		score_file = open(join(score_path, "%s_score.txt"%cls), "w+")
+		print "Writing scores for %s"%cont
+		for op in score_cls_dic.keys():
+			score_file.write(op + "\n")
+			score_file.write("score : %f\n"%score_cls_dic[op][cont][0])
+			for elem in score_cls_dic[op][cont][1]:
+				score_file.write("error case : case %s\n"%elem)
+			if score_cls_dic[op][cont][1] == []:
+				score_file.write("No errorneous case\n")
+		
 		score_file.close()
-	
-	
-	
+		
+		
+		
 	
