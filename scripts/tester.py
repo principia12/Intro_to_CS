@@ -1,10 +1,9 @@
 import os
 from os.path import join 
 from path import *
-#from future import __division__
+
 
 # auxillary function
-
 def compare(sol_file, ans_file):
 	op = ans_file.split("\\")[-2]
 	if ans_file.split("\\")[-1] in os.listdir(join(sol_file, "..")):
