@@ -1,18 +1,69 @@
 \section{Stack}
 
+
+스택은 데이터구조 중 나중에 들어온 것이 먼저 나오는(LIFO - Last In, First Out) 자료구조를 스택이라고 합니다. 스택은 여러 방법으로 구현될 수 있으며, 구현에 따라서 performance 또한 달라집니다. 예를 들어서, array를 이용하여 구현한 스택과 linked list를 이용하여 구현한 스택, 그리고 BST를 이용하여 구현한 스택은 모두 performance가 다르게 됩니다. array의 경우 array의 끝에 자료를 추가하거나 지우는 것은 O(1)의 시간이 걸리지만, linked list의 경우 구현에 따라서 O(1)이 될수도, O(n)이 될 수도 있습니다. BST의 경우 언제나 O(log n)\footnote{Balanced된 경우의 worst case} 이 됩니다. 
+
+스택에서 가장 중요한 operation은 push와 pop입니다. push는 스택 구조에 데이터를 넣는 것을 말하고, pop은 스택에서 마지막에 들어간 자료를 제거하는 것을 말합니다. 
+
 \subsection{Structures to implement}
 
 \subsubsection{Simple stack}
 
+\begin{compactitem}
+
+\item Array Implementation 
+
+\begin{Python}
+class Stack(): 
+    def __init__(self, contents):
+        self.contents = contents
+        
+    def pop(self):
+        if self.contents:
+            return self.contents[-1]
+        else:   
+            return None
+    def push(self, elem):
+        self.contents.append(elem)
+\end{Python}
+위 코드는 파이썬이고, 파이썬의 list는 array of pointer로 구현되어 있으므로\footnote{http://www.laurentluce.com/posts/python-list-implementation/}  위 구현은 array를 이용한 스택의 구현입니다. 
+
+\item Linked List Implementation
+
+\begin{Python}
+class LinkedNode():
+    def __init__(self, next_node = None, data = None):
+        self.next_node = next_node
+        self.data = data
+        
+    def __str__(self):
+        if self.next_node == None:
+            return self.data
+        else:
+            return self.data + self.next_node.__str__()
+    
+    def pop(self):
+        if self.next_node.next_node == None:
+            res = self.next_node
+            self.next_node = None
+            return res
+        else: 
+            return self.next_node.pop()
+    def push(self, data):
+        if self.next_node.next_node == None:
+            self.next_node.next_node = LinkedNode(None, data)
+\end{Python}
+
+
+\end{compactitem}
 
 \subsection{Operations to implement}
 
-\subsubsection{Sorting}
-
-\subsubsection{Searching}
-
+위 코드에 이미 구현되어 있으므로 아래 코드는 생략한다. 
 \subsubsection{Insertion}
+Push operation 
 
 \subsubsection{Deletion}
+pop operation 
 
 \newpage

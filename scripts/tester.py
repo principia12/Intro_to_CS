@@ -15,12 +15,16 @@ def compare(sol_file, ans_file):
 		error = 0.0
 		error_cases = []
 		for ind, line in enumerate(sol.readlines()):
-			if line == lines[ind] and line.startswith("test"):
-				case_num = max(case_num, int(line[-2]))
-			elif line != lines[ind]:
-				error += 1
-				error_cases.append(ind)
-		
+			try:
+				if line == lines[ind] and line.startswith("test"):
+					case_num = max(case_num, int(line[-2]))
+				elif line != lines[ind]:
+					error += 1
+					error_cases.append(ind)
+			except IndexError:
+				print sol_file, ans_file
+				print line
+			
 		res = [(case_num - error)/case_num, error_cases]
 	else:
 		res = [0, ["all"]]

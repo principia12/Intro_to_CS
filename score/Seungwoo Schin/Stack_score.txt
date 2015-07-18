@@ -1,0 +1,6 @@
+push
+score : 1.000000
+No errorneous case
+pop
+score : 1.000000
+No errorneous case

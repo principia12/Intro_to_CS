@@ -1,0 +1,6 @@
+push
+score : 0.000000
+error case : case all
+pop
+score : 0.000000
+error case : case all

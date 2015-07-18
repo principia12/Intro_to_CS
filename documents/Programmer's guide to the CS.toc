@@ -20,49 +20,47 @@
 \contentsline {section}{\numberline {2}Stack}{8}{section.2}
 \contentsline {subsection}{\numberline {I}Structures to implement}{8}{subsection.2.1}
 \contentsline {subsubsection}{\numberline {I.1}Simple stack}{8}{subsubsection.2.1.1}
-\contentsline {subsection}{\numberline {II}Operations to implement}{8}{subsection.2.2}
-\contentsline {subsubsection}{\numberline {II.1}Sorting}{8}{subsubsection.2.2.1}
-\contentsline {subsubsection}{\numberline {II.2}Searching}{8}{subsubsection.2.2.2}
-\contentsline {subsubsection}{\numberline {II.3}Insertion}{8}{subsubsection.2.2.3}
-\contentsline {subsubsection}{\numberline {II.4}Deletion}{8}{subsubsection.2.2.4}
-\contentsline {section}{\numberline {3}Queue}{9}{section.3}
-\contentsline {subsection}{\numberline {I}Structures to implement}{9}{subsection.3.1}
-\contentsline {subsubsection}{\numberline {I.1}Simple queue}{9}{subsubsection.3.1.1}
-\contentsline {subsubsection}{\numberline {I.2}Priority queue}{9}{subsubsection.3.1.2}
-\contentsline {subsubsection}{\numberline {I.3}Dequeue (double ended queue)}{9}{subsubsection.3.1.3}
-\contentsline {subsection}{\numberline {II}Operations to implement}{9}{subsection.3.2}
-\contentsline {subsubsection}{\numberline {II.1}Sorting}{9}{subsubsection.3.2.1}
-\contentsline {subsubsection}{\numberline {II.2}Searching}{9}{subsubsection.3.2.2}
-\contentsline {subsubsection}{\numberline {II.3}Insertion}{9}{subsubsection.3.2.3}
-\contentsline {subsubsection}{\numberline {II.4}Deletion}{9}{subsubsection.3.2.4}
-\contentsline {section}{\numberline {4}Advanced Structure}{10}{section.4}
-\contentsline {subsection}{\numberline {I}Structures to implement}{10}{subsection.4.1}
-\contentsline {subsubsection}{\numberline {I.1}Tree}{10}{subsubsection.4.1.1}
-\contentsline {paragraph}{Simple binary tree}{10}{subsubsection.4.1.1}
-\contentsline {paragraph}{Full binary tree }{10}{subsubsection.4.1.1}
-\contentsline {paragraph}{Perfect binary tree}{10}{subsubsection.4.1.1}
-\contentsline {paragraph}{Complete binary tree}{10}{subsubsection.4.1.1}
-\contentsline {paragraph}{Binary search tree}{10}{subsubsection.4.1.1}
-\contentsline {paragraph}{AVL tree}{10}{subsubsection.4.1.1}
-\contentsline {paragraph}{Red-black tree}{10}{subsubsection.4.1.1}
-\contentsline {paragraph}{Heap tree}{10}{subsubsection.4.1.1}
-\contentsline {paragraph}{B-tree}{10}{subsubsection.4.1.1}
-\contentsline {paragraph}{ 2-3-4 tree}{10}{subsubsection.4.1.1}
-\contentsline {paragraph}{B+ tree}{10}{subsubsection.4.1.1}
-\contentsline {subsubsection}{\numberline {I.2}Graph}{10}{subsubsection.4.1.2}
-\contentsline {paragraph}{Simple graph}{10}{subsubsection.4.1.2}
-\contentsline {paragraph}{Directed graph}{10}{subsubsection.4.1.2}
-\contentsline {paragraph}{Directed weighted graph}{10}{subsubsection.4.1.2}
-\contentsline {subsection}{\numberline {II}Operations to implement}{10}{subsection.4.2}
-\contentsline {subsubsection}{\numberline {II.1}Elementary algorithms}{10}{subsubsection.4.2.1}
-\contentsline {paragraph}{BFS}{10}{subsubsection.4.2.1}
-\contentsline {paragraph}{DFS}{10}{subsubsection.4.2.1}
-\contentsline {paragraph}{Topological sort}{10}{subsubsection.4.2.1}
-\contentsline {subsubsection}{\numberline {II.2}Minimum spanning tree}{10}{subsubsection.4.2.2}
-\contentsline {paragraph}{Prim}{10}{subsubsection.4.2.2}
-\contentsline {paragraph}{Kruskal}{11}{subsubsection.4.2.2}
-\contentsline {subsubsection}{\numberline {II.3}Shortest path algorithms}{11}{subsubsection.4.2.3}
-\contentsline {paragraph}{Bellman-Ford algorithms}{11}{subsubsection.4.2.3}
-\contentsline {paragraph}{Dijkstra's algorithm}{11}{subsubsection.4.2.3}
-\contentsline {paragraph}{Floyd-Warshall algorithm}{11}{subsubsection.4.2.3}
-\contentsline {paragraph}{Johnson's algorithm}{11}{subsubsection.4.2.3}
+\contentsline {subsection}{\numberline {II}Operations to implement}{9}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {II.1}Insertion}{9}{subsubsection.2.2.1}
+\contentsline {subsubsection}{\numberline {II.2}Deletion}{9}{subsubsection.2.2.2}
+\contentsline {section}{\numberline {3}Queue}{10}{section.3}
+\contentsline {subsection}{\numberline {I}Structures to implement}{10}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {I.1}Simple queue}{10}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {I.2}Priority queue}{10}{subsubsection.3.1.2}
+\contentsline {subsubsection}{\numberline {I.3}Dequeue (double ended queue)}{10}{subsubsection.3.1.3}
+\contentsline {subsection}{\numberline {II}Operations to implement}{10}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {II.1}Sorting}{10}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {II.2}Searching}{10}{subsubsection.3.2.2}
+\contentsline {subsubsection}{\numberline {II.3}Insertion}{10}{subsubsection.3.2.3}
+\contentsline {subsubsection}{\numberline {II.4}Deletion}{10}{subsubsection.3.2.4}
+\contentsline {section}{\numberline {4}Advanced Structure}{11}{section.4}
+\contentsline {subsection}{\numberline {I}Structures to implement}{11}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {I.1}Tree}{11}{subsubsection.4.1.1}
+\contentsline {paragraph}{Simple binary tree}{11}{subsubsection.4.1.1}
+\contentsline {paragraph}{Full binary tree }{11}{subsubsection.4.1.1}
+\contentsline {paragraph}{Perfect binary tree}{11}{subsubsection.4.1.1}
+\contentsline {paragraph}{Complete binary tree}{11}{subsubsection.4.1.1}
+\contentsline {paragraph}{Binary search tree}{11}{subsubsection.4.1.1}
+\contentsline {paragraph}{AVL tree}{11}{subsubsection.4.1.1}
+\contentsline {paragraph}{Red-black tree}{11}{subsubsection.4.1.1}
+\contentsline {paragraph}{Heap tree}{11}{subsubsection.4.1.1}
+\contentsline {paragraph}{B-tree}{11}{subsubsection.4.1.1}
+\contentsline {paragraph}{ 2-3-4 tree}{11}{subsubsection.4.1.1}
+\contentsline {paragraph}{B+ tree}{11}{subsubsection.4.1.1}
+\contentsline {subsubsection}{\numberline {I.2}Graph}{11}{subsubsection.4.1.2}
+\contentsline {paragraph}{Simple graph}{11}{subsubsection.4.1.2}
+\contentsline {paragraph}{Directed graph}{11}{subsubsection.4.1.2}
+\contentsline {paragraph}{Directed weighted graph}{11}{subsubsection.4.1.2}
+\contentsline {subsection}{\numberline {II}Operations to implement}{11}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {II.1}Elementary algorithms}{11}{subsubsection.4.2.1}
+\contentsline {paragraph}{BFS}{11}{subsubsection.4.2.1}
+\contentsline {paragraph}{DFS}{11}{subsubsection.4.2.1}
+\contentsline {paragraph}{Topological sort}{11}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {II.2}Minimum spanning tree}{11}{subsubsection.4.2.2}
+\contentsline {paragraph}{Prim}{11}{subsubsection.4.2.2}
+\contentsline {paragraph}{Kruskal}{12}{subsubsection.4.2.2}
+\contentsline {subsubsection}{\numberline {II.3}Shortest path algorithms}{12}{subsubsection.4.2.3}
+\contentsline {paragraph}{Bellman-Ford algorithms}{12}{subsubsection.4.2.3}
+\contentsline {paragraph}{Dijkstra's algorithm}{12}{subsubsection.4.2.3}
+\contentsline {paragraph}{Floyd-Warshall algorithm}{12}{subsubsection.4.2.3}
+\contentsline {paragraph}{Johnson's algorithm}{12}{subsubsection.4.2.3}

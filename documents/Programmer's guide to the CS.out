@@ -21,25 +21,23 @@
 \BOOKMARK [2][-]{subsection.2.1}{Structures to implement}{section.2}% 21
 \BOOKMARK [3][-]{subsubsection.2.1.1}{Simple stack}{subsection.2.1}% 22
 \BOOKMARK [2][-]{subsection.2.2}{Operations to implement}{section.2}% 23
-\BOOKMARK [3][-]{subsubsection.2.2.1}{Sorting}{subsection.2.2}% 24
-\BOOKMARK [3][-]{subsubsection.2.2.2}{Searching}{subsection.2.2}% 25
-\BOOKMARK [3][-]{subsubsection.2.2.3}{Insertion}{subsection.2.2}% 26
-\BOOKMARK [3][-]{subsubsection.2.2.4}{Deletion}{subsection.2.2}% 27
-\BOOKMARK [1][-]{section.3}{Queue}{}% 28
-\BOOKMARK [2][-]{subsection.3.1}{Structures to implement}{section.3}% 29
-\BOOKMARK [3][-]{subsubsection.3.1.1}{Simple queue}{subsection.3.1}% 30
-\BOOKMARK [3][-]{subsubsection.3.1.2}{Priority queue}{subsection.3.1}% 31
-\BOOKMARK [3][-]{subsubsection.3.1.3}{Dequeue \(double ended queue\)}{subsection.3.1}% 32
-\BOOKMARK [2][-]{subsection.3.2}{Operations to implement}{section.3}% 33
-\BOOKMARK [3][-]{subsubsection.3.2.1}{Sorting}{subsection.3.2}% 34
-\BOOKMARK [3][-]{subsubsection.3.2.2}{Searching}{subsection.3.2}% 35
-\BOOKMARK [3][-]{subsubsection.3.2.3}{Insertion}{subsection.3.2}% 36
-\BOOKMARK [3][-]{subsubsection.3.2.4}{Deletion}{subsection.3.2}% 37
-\BOOKMARK [1][-]{section.4}{Advanced Structure}{}% 38
-\BOOKMARK [2][-]{subsection.4.1}{Structures to implement}{section.4}% 39
-\BOOKMARK [3][-]{subsubsection.4.1.1}{Tree}{subsection.4.1}% 40
-\BOOKMARK [3][-]{subsubsection.4.1.2}{Graph}{subsection.4.1}% 41
-\BOOKMARK [2][-]{subsection.4.2}{Operations to implement}{section.4}% 42
-\BOOKMARK [3][-]{subsubsection.4.2.1}{Elementary algorithms}{subsection.4.2}% 43
-\BOOKMARK [3][-]{subsubsection.4.2.2}{Minimum spanning tree}{subsection.4.2}% 44
-\BOOKMARK [3][-]{subsubsection.4.2.3}{Shortest path algorithms}{subsection.4.2}% 45
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Insertion}{subsection.2.2}% 24
+\BOOKMARK [3][-]{subsubsection.2.2.2}{Deletion}{subsection.2.2}% 25
+\BOOKMARK [1][-]{section.3}{Queue}{}% 26
+\BOOKMARK [2][-]{subsection.3.1}{Structures to implement}{section.3}% 27
+\BOOKMARK [3][-]{subsubsection.3.1.1}{Simple queue}{subsection.3.1}% 28
+\BOOKMARK [3][-]{subsubsection.3.1.2}{Priority queue}{subsection.3.1}% 29
+\BOOKMARK [3][-]{subsubsection.3.1.3}{Dequeue \(double ended queue\)}{subsection.3.1}% 30
+\BOOKMARK [2][-]{subsection.3.2}{Operations to implement}{section.3}% 31
+\BOOKMARK [3][-]{subsubsection.3.2.1}{Sorting}{subsection.3.2}% 32
+\BOOKMARK [3][-]{subsubsection.3.2.2}{Searching}{subsection.3.2}% 33
+\BOOKMARK [3][-]{subsubsection.3.2.3}{Insertion}{subsection.3.2}% 34
+\BOOKMARK [3][-]{subsubsection.3.2.4}{Deletion}{subsection.3.2}% 35
+\BOOKMARK [1][-]{section.4}{Advanced Structure}{}% 36
+\BOOKMARK [2][-]{subsection.4.1}{Structures to implement}{section.4}% 37
+\BOOKMARK [3][-]{subsubsection.4.1.1}{Tree}{subsection.4.1}% 38
+\BOOKMARK [3][-]{subsubsection.4.1.2}{Graph}{subsection.4.1}% 39
+\BOOKMARK [2][-]{subsection.4.2}{Operations to implement}{section.4}% 40
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Elementary algorithms}{subsection.4.2}% 41
+\BOOKMARK [3][-]{subsubsection.4.2.2}{Minimum spanning tree}{subsection.4.2}% 42
+\BOOKMARK [3][-]{subsubsection.4.2.3}{Shortest path algorithms}{subsection.4.2}% 43

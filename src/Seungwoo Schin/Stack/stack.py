@@ -1,21 +1,15 @@
-# class definition
-
-class Fortest():
-	def __init__(self, n):
-		self.n = n
-		
-	def __repr__(self):
-		return "class for test, contains %d"%(self.n)
-		
-	def pprint(self):
-		if self.n == 1:
-			return 0
-		else: 
-			return self.n
-		
-	def addone(self):
-		return self.n + 1
-		
+class Stack(): 
+    def __init__(self, contents):
+        self.contents = contents
+        
+    def pop(self):
+        if self.contents:
+            return self.contents[-1]
+        else:   
+            return None
+    def push(self, elem):
+        self.contents.append(elem)
+        
 
 # producing operation result to root/test/class_name/method_name
 
@@ -30,12 +24,12 @@ cont_name = os.path.abspath(os.path.join(".", os.pardir)).split("\\")[-1]
 
 
 for dir in os.listdir(test):
-	if os.path.isdir(join(test, dir)) and dir == "Fortest":
+	if os.path.isdir(join(test, dir)) and dir == "Stack":
 		test_cases = open(join(join(test, dir), "test cases.txt"), "r")
 		for line in test_cases.readlines():
 			line = line.strip("\n")
 			if not line.startswith("test"):
-				cases_lst.append(Fortest(int(line)))
+				cases_lst.append(Stack([int(elem) for elem in line.split()]))
 	
 		test_cases.close()
 		
@@ -46,16 +40,15 @@ for dir in os.listdir(test):
 				for case in cases_lst:
 					ind += 1
 					result.write("test case #%d\n"%ind)
-					if op == "pprint":
-						result.write(str(Fortest.pprint(case))+ "\n")
-					elif op == "addone":
-						result.write(str(Fortest.addone(case)) + "\n")
+					if op == "pop":
+						result.write(str(case.pop())+ "\n")
+					elif op == "push":
+						res = case.push(1)
+						for elem in case.contents:
+							result.write(str(elem) + " ")
+						result.write("\n")
 					else:
 						print "No such method"
-			
-						
 
-	
-	
-	
-	
+
+						

@@ -1,6 +1,6 @@
 pprint
-score : 0.000000
-error case : case all
+score : 0.888889
+error case : case 17
 addone
-score : 0.000000
-error case : case all
+score : 0.888889
+error case : case 17
