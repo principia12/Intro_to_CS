@@ -44,11 +44,32 @@ class Customer:
 		self.t_need = t_need 
 
 class BankSimulation:
-	def __init__(self, bnaker_num, customer_list):
+	def __init__(self, banker_num, customer_list):
 		self.banker_num = banker_num 
 		self.customer_list = customer_list
 
-	def simulate():
-		# implement here
-		pass
+	def simulate(self):
+		for customer in self.customer_list:
+			print(customer.t_arrive, customer.t_need)
+			#time = 0
+		tick = 0
 
+		while(True): 
+			if True: # if all customers are processed 
+			 	return
+			else: 
+				if True: # if there is an empty banker
+					pass # 온 시간이 적은 순서대로 은행원 할당  
+				else: # if there is no empty banker
+					pass # tick += 1
+
+			
+
+if __name__ == '__main__':
+	customer_list = [Customer(0,3), 
+					Customer(1,5), 
+					Customer(4,10), 
+					Customer(5,1),
+					Customer(7,3)]
+
+	BankSimulation(3,customer_list).simulate()
